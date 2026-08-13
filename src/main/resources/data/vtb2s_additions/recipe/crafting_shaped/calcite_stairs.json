@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:calcite"
+  },
+  "result": {
+    "id": "vtb2s_additions:calcite_stairs",
+    "count": 4
+  }
+}

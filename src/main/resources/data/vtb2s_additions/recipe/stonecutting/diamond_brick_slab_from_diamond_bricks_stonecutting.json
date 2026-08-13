@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:diamond_bricks",
+  "result": {
+    "id": "vtb2s_additions:diamond_brick_slab",
+    "count": 2
+  }
+}

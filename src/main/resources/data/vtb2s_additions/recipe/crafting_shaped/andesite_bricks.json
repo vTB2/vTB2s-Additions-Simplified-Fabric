@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:polished_andesite"
+  },
+  "result": {
+    "id": "vtb2s_additions:andesite_bricks",
+    "count": 4
+  }
+}

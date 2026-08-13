@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "minecraft:amethyst_block",
+  "result": {
+    "id": "vtb2s_additions:smooth_amethyst",
+    "count": 1,
+    "experience": 0.1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:smooth_basalt"
+  },
+  "result": {
+    "id": "vtb2s_additions:refined_basalt",
+    "count": 4
+  }
+}

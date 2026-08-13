@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtb2s_additions:block/smooth_citrine_slab"
+    },
+    "type=double": {
+      "model": "vtb2s_additions:block/smooth_citrine"
+    },
+    "type=top": {
+      "model": "vtb2s_additions:block/smooth_citrine_slab_top"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": [
+      "vtb2s_additions:gold_bricks"
+    ]
+  },
+  "result": {
+    "id": "vtb2s_additions:gold_brick_stairs",
+    "count": 4
+  }
+}

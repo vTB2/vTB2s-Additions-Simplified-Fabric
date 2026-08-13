@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "vtb2s_additions:block/polished_dripstone",
+    "side": "vtb2s_additions:block/polished_dripstone",
+    "top": "vtb2s_additions:block/polished_dripstone"
+  }
+}

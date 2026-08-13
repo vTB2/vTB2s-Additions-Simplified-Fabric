@@ -1,0 +1,14 @@
+Added missing Stonecutter recipes from 1.0.0
+Added Stained Bricks in all 16 colours
+Finished Concrete variants
+Changed name of Nether Quartz variants (e.g. Rose Nether Quartz Ore changed to Nether Rose Quartz Ore)
+Added Dripstone variants (no texture)
+Added Indigo Quartz and variants (no variant textures)
+Added Indigo Quartz Ore and Item (no item texture)
+Added Indigo Quartz Ore generation to The End
+Added Citrine and variants (no textures)
+Added Citrine Ore and Item (no item texture)
+Added Quartz Tiles to all variants (including new ones from this release)
+Added natural Calcite generation in blobs slightly smaller than igneous rocks
+Revamped Marble generation, only generating in Calcite deposits, or rarely in large Marble deposits
+Added unique Marble and Calcite generation to mountain biomes

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/andesite_bricks",
+    "side": "vtb2s_additions:block/andesite_bricks",
+    "top": "vtb2s_additions:block/andesite_bricks"
+  }
+}

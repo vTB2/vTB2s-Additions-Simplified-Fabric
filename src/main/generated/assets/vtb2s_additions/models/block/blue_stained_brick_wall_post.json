@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "vtb2s_additions:block/blue_stained_bricks"
+  }
+}

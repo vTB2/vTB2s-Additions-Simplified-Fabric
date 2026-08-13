@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:marble",
+  "result": {
+    "id": "vtb2s_additions:polished_marble_slab",
+    "count": 2
+  }
+}

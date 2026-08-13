@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:smooth_stone"
+  },
+  "result": {
+    "id": "vtb2s_additions:smooth_stone_stairs",
+    "count": 4
+  }
+}

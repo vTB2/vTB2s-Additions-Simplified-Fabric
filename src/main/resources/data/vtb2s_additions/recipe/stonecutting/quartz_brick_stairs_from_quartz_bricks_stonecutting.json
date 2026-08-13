@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:quartz_bricks",
+  "result": {
+    "id": "vtb2s_additions:quartz_brick_stairs",
+    "count": 1
+  }
+}

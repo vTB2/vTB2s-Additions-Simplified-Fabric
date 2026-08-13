@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "vtb2s_additions:block/gold_bricks"
+  }
+}

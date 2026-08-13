@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "vtb2s_additions:netherite_bricks",
+    "count": 4
+  }
+}

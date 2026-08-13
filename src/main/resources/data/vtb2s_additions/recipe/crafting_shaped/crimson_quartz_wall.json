@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "vtb2s_additions:crimson_quartz_block"
+  },
+  "result": {
+    "id": "vtb2s_additions:crimson_quartz_wall",
+    "count": 6
+  }
+}

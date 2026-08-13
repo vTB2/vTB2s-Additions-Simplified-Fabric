@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:polished_calcite",
+  "result": {
+    "id": "vtb2s_additions:calcite_brick_wall",
+    "count": 1
+  }
+}

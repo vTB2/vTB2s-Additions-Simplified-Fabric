@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "vtb2s_additions",
+	"version": "${version}",
+	"name": "vTB2s Additions",
+	"description": "This mod adds various features I have always thought should be in the game by default, largely building blocks!",
+	"authors": [
+		"vTB2"
+	],
+	"icon": "assets/vtb2s_additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"vtb2s.additions.vTB2sAdditions"
+		],
+		"client": [
+			"vtb2s.additions.vTB2sAdditionsClient"
+		],
+		"fabric-datagen": [
+			"vtb2s.additions.vTB2sAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"vtb2s-additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

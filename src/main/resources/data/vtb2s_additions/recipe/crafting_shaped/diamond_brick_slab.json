@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": [
+      "vtb2s_additions:diamond_bricks"
+    ]
+  },
+  "result": {
+    "id": "vtb2s_additions:diamond_brick_slab",
+    "count": 6
+  }
+}

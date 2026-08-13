@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtb2s_additions:block/smooth_prasiolite_quartz_slab"
+    },
+    "type=double": {
+      "model": "vtb2s_additions:block/smooth_prasiolite_quartz"
+    },
+    "type=top": {
+      "model": "vtb2s_additions:block/smooth_prasiolite_quartz_slab_top"
+    }
+  }
+}

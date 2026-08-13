@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vtb2s_additions:item/crimson_nether_quartz"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/dripstone_tiles",
+    "side": "vtb2s_additions:block/dripstone_tiles",
+    "top": "vtb2s_additions:block/dripstone_tiles"
+  }
+}

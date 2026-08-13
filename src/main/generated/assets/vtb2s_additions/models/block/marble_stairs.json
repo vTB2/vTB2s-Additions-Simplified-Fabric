@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/marble",
+    "side": "vtb2s_additions:block/marble",
+    "top": "vtb2s_additions:block/marble"
+  }
+}

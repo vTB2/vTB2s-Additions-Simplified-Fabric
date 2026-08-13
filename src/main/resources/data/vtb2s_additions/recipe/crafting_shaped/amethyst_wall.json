@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:amethyst_block"
+  },
+  "result": {
+    "id": "vtb2s_additions:amethyst_wall",
+    "count": 6
+  }
+}

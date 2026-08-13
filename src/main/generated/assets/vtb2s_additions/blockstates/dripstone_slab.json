@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtb2s_additions:block/dripstone_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/dripstone_block"
+    },
+    "type=top": {
+      "model": "vtb2s_additions:block/dripstone_slab_top"
+    }
+  }
+}

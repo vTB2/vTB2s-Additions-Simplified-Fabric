@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/diorite_tiles",
+    "side": "vtb2s_additions:block/diorite_tiles",
+    "top": "vtb2s_additions:block/diorite_tiles"
+  }
+}

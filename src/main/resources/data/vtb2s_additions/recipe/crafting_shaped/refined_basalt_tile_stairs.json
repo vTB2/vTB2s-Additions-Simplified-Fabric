@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "vtb2s_additions:refined_basalt_tiles"
+  },
+  "result": {
+    "id": "vtb2s_additions:refined_basalt_tile_stairs",
+    "count": 4
+  }
+}

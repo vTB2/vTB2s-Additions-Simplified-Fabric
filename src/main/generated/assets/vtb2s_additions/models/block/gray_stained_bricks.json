@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "vtb2s_additions:block/gray_stained_bricks"
+  }
+}

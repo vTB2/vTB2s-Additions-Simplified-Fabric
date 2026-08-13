@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/infernal_quartz_block",
+    "side": "vtb2s_additions:block/infernal_quartz_block",
+    "top": "vtb2s_additions:block/infernal_quartz_block"
+  }
+}

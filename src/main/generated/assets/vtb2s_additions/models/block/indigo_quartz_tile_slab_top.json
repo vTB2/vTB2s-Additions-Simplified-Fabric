@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "vtb2s_additions:block/indigo_quartz_tiles",
+    "side": "vtb2s_additions:block/indigo_quartz_tiles",
+    "top": "vtb2s_additions:block/indigo_quartz_tiles"
+  }
+}

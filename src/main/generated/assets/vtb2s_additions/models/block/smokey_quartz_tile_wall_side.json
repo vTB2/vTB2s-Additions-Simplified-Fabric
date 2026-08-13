@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "vtb2s_additions:block/smokey_quartz_tiles"
+  }
+}

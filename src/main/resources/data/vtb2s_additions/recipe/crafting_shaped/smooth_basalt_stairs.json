@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:smooth_basalt"
+  },
+  "result": {
+    "id": "vtb2s_additions:smooth_basalt_stairs",
+    "count": 4
+  }
+}

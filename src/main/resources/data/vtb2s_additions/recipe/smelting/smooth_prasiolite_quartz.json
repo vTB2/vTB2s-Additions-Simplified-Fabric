@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "vtb2s_additions:prasiolite_quartz_block",
+  "result": {
+    "id": "vtb2s_additions:smooth_prasiolite_quartz",
+    "count": 1,
+    "experience": 0.1
+  }
+}

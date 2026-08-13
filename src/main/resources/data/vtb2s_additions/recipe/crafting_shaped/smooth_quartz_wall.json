@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:smooth_quartz"
+  },
+  "result": {
+    "id": "vtb2s_additions:smooth_quartz_wall",
+    "count": 6
+  }
+}

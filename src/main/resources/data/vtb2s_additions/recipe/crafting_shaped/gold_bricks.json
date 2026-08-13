@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "vtb2s_additions:gold_bricks",
+    "count": 4
+  }
+}

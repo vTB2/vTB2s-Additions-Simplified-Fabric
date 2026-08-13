@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "vtb2s_additions:block/light_gray_stained_bricks"
+  }
+}

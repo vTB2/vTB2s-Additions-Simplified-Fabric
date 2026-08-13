@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:diamond_block",
+  "result": {
+    "id": "vtb2s_additions:diamond_brick_stairs",
+    "count": 1
+  }
+}

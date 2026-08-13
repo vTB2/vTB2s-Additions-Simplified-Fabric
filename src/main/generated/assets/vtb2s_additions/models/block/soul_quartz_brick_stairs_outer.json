@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/soul_quartz_bricks",
+    "side": "vtb2s_additions:block/soul_quartz_bricks",
+    "top": "vtb2s_additions:block/soul_quartz_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "vtb2s_additions:block/indigo_quartz_block",
+    "side": "vtb2s_additions:block/indigo_quartz_block",
+    "top": "vtb2s_additions:block/indigo_quartz_block"
+  }
+}
