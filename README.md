@@ -1,0 +1,1 @@
+This is my Fabric mod for Minecraft 1.21.11 that adds a decent catalogue of Vanilla-like blocks to the game. This is not intended as a large scale project, rather just a mod for my friends and I. If you find this mod, forgive any informal uses of GitHub or my subpar Java code, I am new to both. This is not professionalism, just hobbyist stuff. 
