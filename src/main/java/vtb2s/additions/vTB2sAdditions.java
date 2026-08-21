@@ -8,7 +8,6 @@ import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BiomeTags;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.biome.BiomeKeys;
 import net.minecraft.world.gen.GenerationStep;
@@ -46,7 +45,7 @@ public class vTB2sAdditions implements ModInitializer {
 		addOreFeature("ore_soul_nether_quartz", BiomeSelectors.includeByKey(BiomeKeys.SOUL_SAND_VALLEY));
 		addOreFeature("ore_infernal_nether_quartz", BiomeSelectors.includeByKey(BiomeKeys.BASALT_DELTAS));
 		addOreFeature("ore_end_indigo_quartz", BiomeSelectors.foundInTheEnd());
-		addOreFeature("ore_citrine",BiomeSelectors.foundInOverworld());
+		//adding in 1.3.0			addOreFeature("ore_citrine",BiomeSelectors.foundInOverworld());
 	}
 
 	public static void addFeature(String featureName, Predicate<BiomeSelectionContext> biomeSelector, GenerationStep.Feature step) {

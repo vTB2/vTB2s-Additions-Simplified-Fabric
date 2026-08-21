@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "vtb2s_additions:indigo_quartz_bricks"
+  },
+  "result": {
+    "id": "vtb2s_additions:indigo_quartz_brick_slab",
+    "count": 6
+  }
+}

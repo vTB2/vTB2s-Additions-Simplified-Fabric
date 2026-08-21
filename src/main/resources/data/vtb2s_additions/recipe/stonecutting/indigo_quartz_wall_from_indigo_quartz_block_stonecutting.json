@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:indigo_quartz_block",
+  "result": {
+    "id": "vtb2s_additions:indigo_quartz_wall",
+    "count": 1
+  }
+}

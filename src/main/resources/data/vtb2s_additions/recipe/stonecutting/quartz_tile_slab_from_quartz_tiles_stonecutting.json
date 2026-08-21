@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:quartz_tiles",
+  "result": {
+    "id": "vtb2s_additions:quartz_tile_slab",
+    "count": 2
+  }
+}

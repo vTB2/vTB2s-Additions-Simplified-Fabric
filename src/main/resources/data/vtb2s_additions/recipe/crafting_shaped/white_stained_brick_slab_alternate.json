@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:brick_slab",
+    "A": "minecraft:white_dye"
+  },
+  "result": {
+    "id": "vtb2s_additions:white_stained_brick_slab",
+    "count": 8
+  }
+}

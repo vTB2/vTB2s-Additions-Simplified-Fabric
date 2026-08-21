@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:dripstone_bricks",
+  "result": {
+    "id": "vtb2s_additions:dripstone_tile_slab",
+    "count": 2
+  }
+}

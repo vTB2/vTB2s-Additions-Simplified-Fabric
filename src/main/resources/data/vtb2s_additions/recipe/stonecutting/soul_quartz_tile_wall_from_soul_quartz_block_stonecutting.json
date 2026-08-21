@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "vtb2s_additions:soul_quartz_block",
+  "result": {
+    "id": "vtb2s_additions:soul_quartz_tile_wall",
+    "count": 1
+  }
+}

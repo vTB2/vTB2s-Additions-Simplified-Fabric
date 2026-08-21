@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:brick_wall",
+    "A": "minecraft:black_dye"
+  },
+  "result": {
+    "id": "vtb2s_additions:black_stained_brick_wall",
+    "count": 8
+  }
+}

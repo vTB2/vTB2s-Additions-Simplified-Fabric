@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": [
+      "minecraft:pink_concrete"
+    ]
+  },
+  "result": {
+    "id": "vtb2s_additions:pink_concrete_wall",
+    "count": 6
+  }
+}

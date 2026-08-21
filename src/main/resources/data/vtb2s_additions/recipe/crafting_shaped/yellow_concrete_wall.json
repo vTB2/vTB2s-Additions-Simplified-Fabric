@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": [
+      "minecraft:yellow_concrete"
+    ]
+  },
+  "result": {
+    "id": "vtb2s_additions:yellow_concrete_wall",
+    "count": 6
+  }
+}

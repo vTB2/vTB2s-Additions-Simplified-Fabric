@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:brick_stairs",
+    "A": "minecraft:orange_dye"
+  },
+  "result": {
+    "id": "vtb2s_additions:orange_stained_brick_stairs",
+    "count": 8
+  }
+}

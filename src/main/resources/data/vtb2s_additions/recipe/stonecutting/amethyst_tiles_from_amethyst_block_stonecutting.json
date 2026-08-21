@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:amethyst_block",
+  "result": {
+    "id": "vtb2s_additions:amethyst_tiles",
+    "count": 1
+  }
+}

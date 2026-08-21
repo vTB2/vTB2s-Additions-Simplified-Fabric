@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": "minecraft:quartz_bricks"
+  },
+  "result": {
+    "id": "vtb2s_additions:quartz_tiles",
+    "count": 4
+  }
+}

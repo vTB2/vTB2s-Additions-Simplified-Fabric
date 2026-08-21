@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:brown_concrete",
+  "result": {
+    "id": "vtb2s_additions:brown_concrete_wall",
+    "count": 1
+  }
+}

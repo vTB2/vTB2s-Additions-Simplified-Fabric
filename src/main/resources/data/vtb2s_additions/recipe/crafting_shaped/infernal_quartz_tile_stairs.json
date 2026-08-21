@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "B  ",
+    "BB ",
+    "BBB"
+  ],
+  "key": {
+    "B": "vtb2s_additions:infernal_quartz_tiles"
+  },
+  "result": {
+    "id": "vtb2s_additions:infernal_quartz_tile_stairs",
+    "count": 4
+  }
+}
