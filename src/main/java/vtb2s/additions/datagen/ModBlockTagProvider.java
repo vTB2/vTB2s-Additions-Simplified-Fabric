@@ -43,6 +43,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(MARBLE_TILE_STAIRS)
                 .add(MARBLE_TILE_SLAB)
                 .add(MARBLE_TILE_WALL)
+                //Marble Pillar
+                .add(MARBLE_PILLAR)
 
                 //Misc
                 //Calcite Family//
@@ -61,6 +63,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(CALCITE_TILE_STAIRS)
                 .add(CALCITE_TILE_SLAB)
                 .add(CALCITE_TILE_WALL)
+                //Calcite Pillar
+                .add(CALCITE_PILLAR)
 
 
                 //Basalt Family//
@@ -79,6 +83,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(REFINED_BASALT_TILE_STAIRS)
                 .add(REFINED_BASALT_TILE_SLAB)
                 .add(REFINED_BASALT_TILE_WALL)
+                //Refined Basalt Pillar
+                .add(REFINED_BASALT_PILLAR)
                 
                 
                 //Dripstone Family//
@@ -97,6 +103,39 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(DRIPSTONE_TILE_STAIRS)
                 .add(DRIPSTONE_TILE_SLAB)
                 .add(DRIPSTONE_TILE_WALL)
+                //Dripstone Pillar
+                .add(DRIPSTONE_PILLAR)
+                
+                
+                //Netherrack Family//
+                //Polished Netherrack
+                .add(POLISHED_NETHERRACK)
+                .add(POLISHED_NETHERRACK_STAIRS)
+                .add(POLISHED_NETHERRACK_SLAB)
+                .add(POLISHED_NETHERRACK_WALL)
+                //Netherrack Bricks
+                .add(NETHERRACK_BRICKS)
+                .add(NETHERRACK_BRICK_STAIRS)
+                .add(NETHERRACK_BRICK_SLAB)
+                .add(NETHERRACK_BRICK_WALL)
+                //Netherrack Tiles
+                .add(NETHERRACK_TILES)
+                .add(NETHERRACK_TILE_STAIRS)
+                .add(NETHERRACK_TILE_SLAB)
+                .add(NETHERRACK_TILE_WALL)
+                
+                
+                //End Stone Family//
+                //Polished End Stone
+                .add(POLISHED_END_STONE)
+                .add(POLISHED_END_STONE_STAIRS)
+                .add(POLISHED_END_STONE_SLAB)
+                .add(POLISHED_END_STONE_WALL)
+                //End Stone Tiles
+                .add(END_STONE_TILES)
+                .add(END_STONE_TILE_STAIRS)
+                .add(END_STONE_TILE_SLAB)
+                .add(END_STONE_TILE_WALL)
 
 
                 //Mineral Bricks//
@@ -129,6 +168,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ANDESITE_TILE_STAIRS)
                 .add(ANDESITE_TILE_SLAB)
                 .add(ANDESITE_TILE_WALL)
+                //Andesite Pillar
+                .add(ANDESITE_PILLAR)
                 //Granite//
                 //Granite Bricks
                 .add(GRANITE_BRICKS)
@@ -140,6 +181,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(GRANITE_TILE_STAIRS)
                 .add(GRANITE_TILE_SLAB)
                 .add(GRANITE_TILE_WALL)
+                //Granite Pillar
+                .add(GRANITE_PILLAR)
                 //Diorite//
                 //Diorite Bricks
                 .add(DIORITE_BRICKS)
@@ -151,6 +194,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(DIORITE_TILE_STAIRS)
                 .add(DIORITE_TILE_SLAB)
                 .add(DIORITE_TILE_WALL)
+                //Diorite Pillar
+                .add(DIORITE_PILLAR)
+
+
+                //Misc Pillars
+                .add(STONE_PILLAR)
+                .add(DEEPSLATE_PILLAR)
 
 
                 //Quartz//
@@ -379,6 +429,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(AMETHYST_STAIRS)
                 .add(AMETHYST_SLAB)
                 .add(AMETHYST_WALL)
+                .add(DEEPSLATE_STAIRS)
+                .add(DEEPSLATE_SLAB)
+                .add(DEEPSLATE_WALL)
+                .add(NETHERRACK_STAIRS)
+                .add(NETHERRACK_SLAB)
+                .add(NETHERRACK_WALL)
+                .add(END_STONE_STAIRS)
+                .add(END_STONE_SLAB)
+                .add(END_STONE_WALL)
+                
 
                 .add(QUARTZ_WALL)
                 .add(SMOOTH_QUARTZ_WALL)
@@ -648,6 +708,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(GOLD_BRICK_SLAB)
                 .add(GOLD_BRICK_WALL);
 
+        valueLookupBuilder(BlockTags.INFINIBURN_NETHER)
+                .add(POLISHED_NETHERRACK)
+                .add(NETHERRACK_BRICKS)
+                .add(NETHERRACK_TILES);
+
+        valueLookupBuilder(BlockTags.INFINIBURN_OVERWORLD)
+                .add(POLISHED_NETHERRACK)
+                .add(NETHERRACK_BRICKS)
+                .add(NETHERRACK_TILES);
+
+        valueLookupBuilder(BlockTags.INFINIBURN_END)
+                .add(POLISHED_NETHERRACK)
+                .add(NETHERRACK_BRICKS)
+                .add(NETHERRACK_TILES);
+
         valueLookupBuilder(BlockTags.WALLS)
                 .add(MARBLE_WALL)
                 .add(POLISHED_MARBLE_WALL)
@@ -751,6 +826,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(DRIPSTONE_WALL)
                 .add(POLISHED_DRIPSTONE_WALL)
                 .add(DRIPSTONE_BRICK_WALL)
-                .add(DRIPSTONE_TILE_WALL);
+                .add(DRIPSTONE_TILE_WALL)
+                .add(DEEPSLATE_WALL)
+                .add(NETHERRACK_WALL)
+                .add(POLISHED_NETHERRACK_WALL)
+                .add(NETHERRACK_BRICK_WALL)
+                .add(NETHERRACK_TILE_WALL)
+                .add(END_STONE_WALL)
+                .add(POLISHED_END_STONE_WALL)
+                .add(END_STONE_TILE_WALL);
     }
 }

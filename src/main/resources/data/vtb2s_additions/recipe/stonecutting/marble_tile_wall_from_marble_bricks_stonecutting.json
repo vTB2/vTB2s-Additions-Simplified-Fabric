@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:marble_bricks",
-  "result": {
-    "id": "vtb2s_additions:marble_tile_wall",
-    "count": 1
-  }
-}

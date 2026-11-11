@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:stone",
-  "result": {
-    "id": "vtb2s_additions:stone_wall",
-    "count": 1
-  }
-}

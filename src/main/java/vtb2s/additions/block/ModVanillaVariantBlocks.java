@@ -98,26 +98,51 @@ public class ModVanillaVariantBlocks {
     public static final Block AMETHYST_WALL = registerBlock("amethyst_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.AMETHYST_BLOCK)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "amethyst_wall")))));
+    
+    //Deepslate//
+    public static final Block DEEPSLATE_STAIRS = registerBlock("deepslate_stairs",
+            new StairsBlock(Blocks.DEEPSLATE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.DEEPSLATE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "deepslate_stairs")))));
+    public static final Block DEEPSLATE_SLAB = registerBlock("deepslate_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "deepslate_slab")))));
+    public static final Block DEEPSLATE_WALL = registerBlock("deepslate_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.DEEPSLATE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "deepslate_wall")))));
+    
+    //Netherrack
+    public static final Block NETHERRACK_STAIRS = registerBlock("netherrack_stairs",
+            new StairsBlock(Blocks.NETHERRACK.getDefaultState(), AbstractBlock.Settings.copy(Blocks.NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_stairs")))));
+    public static final Block NETHERRACK_SLAB = registerBlock("netherrack_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_slab")))));
+    public static final Block NETHERRACK_WALL = registerBlock("netherrack_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_wall")))));
+
+    //End Stone
+    public static final Block END_STONE_STAIRS = registerBlock("end_stone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_stairs")))));
+    public static final Block END_STONE_SLAB = registerBlock("end_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_slab")))));
+    public static final Block END_STONE_WALL = registerBlock("end_stone_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_wall")))));
 
 
     public static void registerModVanillaVariantBlocks() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
-            entries.add(ModVanillaVariantBlocks.CALCITE_STAIRS);
-            entries.add(ModVanillaVariantBlocks.CALCITE_SLAB);
-            entries.add(ModVanillaVariantBlocks.CALCITE_WALL);
-            entries.add(ModVanillaVariantBlocks.SMOOTH_BASALT_STAIRS);
-            entries.add(ModVanillaVariantBlocks.SMOOTH_BASALT_SLAB);
-            entries.add(ModVanillaVariantBlocks.SMOOTH_BASALT_WALL);
-            entries.add(ModVanillaVariantBlocks.DRIPSTONE_STAIRS);
-            entries.add(ModVanillaVariantBlocks.DRIPSTONE_SLAB);
-            entries.add(ModVanillaVariantBlocks.DRIPSTONE_WALL);
-            entries.add(ModVanillaVariantBlocks.AMETHYST_STAIRS);
-            entries.add(ModVanillaVariantBlocks.AMETHYST_SLAB);
-            entries.add(ModVanillaVariantBlocks.AMETHYST_WALL);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModVanillaVariantBlocks.STONE_WALL);
+            //Deepslate
+            entries.add(DEEPSLATE_STAIRS);
+            entries.add(DEEPSLATE_SLAB);
+            entries.add(DEEPSLATE_WALL);
             //Smooth Stone
             entries.add(ModVanillaVariantBlocks.SMOOTH_STONE_WALL);
             entries.add(ModVanillaVariantBlocks.SMOOTH_STONE_STAIRS);
@@ -147,6 +172,14 @@ public class ModVanillaVariantBlocks {
             entries.add(ModVanillaVariantBlocks.QUARTZ_BRICK_STAIRS);
             entries.add(ModVanillaVariantBlocks.QUARTZ_BRICK_SLAB);
             entries.add(ModVanillaVariantBlocks.QUARTZ_BRICK_WALL);
+            //Netherrack
+            entries.add(NETHERRACK_STAIRS);
+            entries.add(NETHERRACK_SLAB);
+            entries.add(NETHERRACK_WALL);
+            //End Stone
+            entries.add(END_STONE_STAIRS);
+            entries.add(END_STONE_SLAB);
+            entries.add(END_STONE_WALL);
         });
     }
 }

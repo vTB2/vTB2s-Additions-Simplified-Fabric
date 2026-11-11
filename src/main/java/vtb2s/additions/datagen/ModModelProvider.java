@@ -307,6 +307,37 @@ public class ModModelProvider extends FabricModelProvider {
         smoothAmethystPool.wall(SMOOTH_AMETHYST_WALL);
 
 
+        //Netherrack Family//
+        //Polished Netherrack
+        BlockStateModelGenerator.BlockTexturePool polishedNetherrackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(POLISHED_NETHERRACK);
+        polishedNetherrackPool.stairs(POLISHED_NETHERRACK_STAIRS);
+        polishedNetherrackPool.slab(POLISHED_NETHERRACK_SLAB);
+        polishedNetherrackPool.wall(POLISHED_NETHERRACK_WALL);
+        //Netherrack Bricks
+        BlockStateModelGenerator.BlockTexturePool netherrackBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(NETHERRACK_BRICKS);
+        netherrackBricksPool.stairs(NETHERRACK_BRICK_STAIRS);
+        netherrackBricksPool.slab(NETHERRACK_BRICK_SLAB);
+        netherrackBricksPool.wall(NETHERRACK_BRICK_WALL);
+        //Netherrack Tiles
+        BlockStateModelGenerator.BlockTexturePool netherrackTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(NETHERRACK_TILES);
+        netherrackTilesPool.stairs(NETHERRACK_TILE_STAIRS);
+        netherrackTilesPool.slab(NETHERRACK_TILE_SLAB);
+        netherrackTilesPool.wall(NETHERRACK_TILE_WALL);
+
+
+        //End Stone Family//
+        //Polished End Stone
+        BlockStateModelGenerator.BlockTexturePool polishedEndStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(POLISHED_END_STONE);
+        polishedEndStonePool.stairs(POLISHED_END_STONE_STAIRS);
+        polishedEndStonePool.slab(POLISHED_END_STONE_SLAB);
+        polishedEndStonePool.wall(POLISHED_END_STONE_WALL);
+        //End Stone Tiles
+        BlockStateModelGenerator.BlockTexturePool endStoneTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(END_STONE_TILES);
+        endStoneTilesPool.stairs(END_STONE_TILE_STAIRS);
+        endStoneTilesPool.slab(END_STONE_TILE_SLAB);
+        endStoneTilesPool.wall(END_STONE_TILE_WALL);
+
+
         //Mineral Bricks
         BlockStateModelGenerator.BlockTexturePool goldBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(GOLD_BRICKS);
         goldBricksPool.stairs(GOLD_BRICK_STAIRS);
@@ -386,6 +417,18 @@ public class ModModelProvider extends FabricModelProvider {
         amethystPool.stairs(AMETHYST_STAIRS);
         amethystPool.slab(AMETHYST_SLAB);
         amethystPool.wall(AMETHYST_WALL);
+        BlockStateModelGenerator.BlockTexturePool deepslatePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.DEEPSLATE);
+        deepslatePool.stairs(DEEPSLATE_STAIRS);
+        deepslatePool.slab(DEEPSLATE_SLAB);
+        deepslatePool.wall(DEEPSLATE_WALL);
+        BlockStateModelGenerator.BlockTexturePool netherrackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.NETHERRACK);
+        netherrackPool.stairs(NETHERRACK_STAIRS);
+        netherrackPool.slab(NETHERRACK_SLAB);
+        netherrackPool.wall(NETHERRACK_WALL);
+        BlockStateModelGenerator.BlockTexturePool endStonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.END_STONE);
+        endStonePool.stairs(END_STONE_STAIRS);
+        endStonePool.slab(END_STONE_SLAB);
+        endStonePool.wall(END_STONE_WALL);
 
         //Quartz minus Quartz Wall (manually added)
         BlockStateModelGenerator.BlockTexturePool smoothQuartzPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.SMOOTH_QUARTZ);

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:dripstone_tiles",
-  "result": {
-    "id": "vtb2s_additions:dripstone_tile_stairs",
-    "count": 1
-  }
-}

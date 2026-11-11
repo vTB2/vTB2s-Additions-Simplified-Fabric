@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:soul_quartz_bricks",
-  "result": {
-    "id": "vtb2s_additions:soul_quartz_tile_stairs",
-    "count": 1
-  }
-}

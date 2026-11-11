@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:lime_concrete",
-  "result": {
-    "id": "vtb2s_additions:lime_concrete_slab",
-    "count": 2
-  }
-}

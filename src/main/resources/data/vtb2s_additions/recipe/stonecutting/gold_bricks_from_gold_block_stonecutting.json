@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:gold_block",
-  "result": {
-    "id": "vtb2s_additions:gold_bricks",
-    "count": 1
-  }
-}

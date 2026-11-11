@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:calcite",
-  "result": {
-    "id": "vtb2s_additions:calcite_tiles",
-    "count": 1
-  }
-}

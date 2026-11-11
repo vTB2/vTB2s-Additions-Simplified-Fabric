@@ -81,6 +81,13 @@ public class ModStoneBlocks {
     public static final Block MARBLE_TILE_WALL = registerBlock("marble_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(MARBLE_TILES)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "marble_tile_wall")))));
+    //Marble Pillar
+    public static final Block MARBLE_PILLAR = registerBlock("marble_pillar",
+            new PillarBlock(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "marble_pillar")))
+                    .strength(1.5f, 6.0f)
+                    .requiresTool()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sounds(BlockSoundGroup.STONE)));
 
 
     //Calcite Family//
@@ -135,6 +142,14 @@ public class ModStoneBlocks {
     public static final Block CALCITE_TILE_WALL = registerBlock("calcite_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(ModStoneBlocks.CALCITE_TILES)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "calcite_tile_wall")))));
+    //Calcite Pillar
+    public static final Block CALCITE_PILLAR = registerBlock("calcite_pillar",
+            new PillarBlock(AbstractBlock.Settings.create()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "calcite_pillar")))
+                    .strength(0.85F, 0.85F)
+                    .requiresTool()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sounds(BlockSoundGroup.CALCITE)));
 
     
     //Igneous Rock Addons//
@@ -165,6 +180,10 @@ public class ModStoneBlocks {
     public static final Block ANDESITE_TILE_WALL = registerBlock("andesite_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_ANDESITE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "andesite_tile_wall")))));
+    //Andesite Pillar
+    public static final Block ANDESITE_PILLAR = registerBlock("andesite_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_ANDESITE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "andesite_pillar")))));
     //Granite//
     //Granite Bricks
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
@@ -192,6 +211,10 @@ public class ModStoneBlocks {
     public static final Block GRANITE_TILE_WALL = registerBlock("granite_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_GRANITE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "granite_tile_wall")))));
+    //Granite Pillar
+    public static final Block GRANITE_PILLAR = registerBlock("granite_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_GRANITE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "granite_pillar")))));
     //Diorite//
     //Diorite Bricks
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
@@ -219,6 +242,10 @@ public class ModStoneBlocks {
     public static final Block DIORITE_TILE_WALL = registerBlock("diorite_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_DIORITE)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "diorite_tile_wall")))));
+    //Diorite Pillar
+    public static final Block DIORITE_PILLAR = registerBlock("diorite_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_DIORITE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "diorite_pillar")))));
 
 
     //Basalt//
@@ -270,6 +297,10 @@ public class ModStoneBlocks {
     public static final Block REFINED_BASALT_TILE_WALL = registerBlock("refined_basalt_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(REFINED_BASALT_TILES)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "refined_basalt_tile_wall")))));
+    //Refined Basalt Pillar
+    public static final Block REFINED_BASALT_PILLAR = registerBlock("refined_basalt_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(REFINED_BASALT)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "refined_basalt_pillar")))));
 
 
     //Dripstone//
@@ -277,7 +308,7 @@ public class ModStoneBlocks {
     public static final Block POLISHED_DRIPSTONE = registerBlock("polished_dripstone",
             new Block(AbstractBlock.Settings.create()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_dripstone")))
-                    .strength(0.85F, 0.85F)
+                    .strength(1.5F, 1.0F)
                     .requiresTool()
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
@@ -294,7 +325,7 @@ public class ModStoneBlocks {
     public static final Block DRIPSTONE_BRICKS = registerBlock("dripstone_bricks",
             new Block(AbstractBlock.Settings.create()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "dripstone_bricks")))
-                    .strength(0.85F, 0.85F)
+                    .strength(1.5F, 1.0F)
                     .requiresTool()
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
@@ -311,7 +342,7 @@ public class ModStoneBlocks {
     public static final Block DRIPSTONE_TILES = registerBlock("dripstone_tiles",
             new Block(AbstractBlock.Settings.create()
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "dripstone_tiles")))
-                    .strength(0.85F, 0.85F)
+                    .strength(1.5F, 1.0F)
                     .requiresTool()
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .sounds(BlockSoundGroup.DRIPSTONE_BLOCK)));
@@ -324,7 +355,104 @@ public class ModStoneBlocks {
     public static final Block DRIPSTONE_TILE_WALL = registerBlock("dripstone_tile_wall",
             new WallBlock(AbstractBlock.Settings.copy(ModStoneBlocks.DRIPSTONE_TILES)
                     .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "dripstone_tile_wall")))));
+    //Dripstone Pillar
+    public static final Block DRIPSTONE_PILLAR = registerBlock("dripstone_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(POLISHED_DRIPSTONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "dripstone_pillar")))));
 
+    
+    //Netherrack//
+    //Polished Netherrack
+    public static final Block POLISHED_NETHERRACK = registerBlock("polished_netherrack",
+            new Block(AbstractBlock.Settings.create()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_netherrack")))
+                    .strength(0.4F, 0.4F)
+                    .requiresTool()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block POLISHED_NETHERRACK_STAIRS = registerBlock("polished_netherrack_stairs",
+            new StairsBlock(ModStoneBlocks.POLISHED_NETHERRACK.getDefaultState(), AbstractBlock.Settings.copy(ModStoneBlocks.POLISHED_NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_netherrack_stairs")))));
+    public static final Block POLISHED_NETHERRACK_SLAB = registerBlock("polished_netherrack_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(ModStoneBlocks.POLISHED_NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_netherrack_slab")))));
+    public static final Block POLISHED_NETHERRACK_WALL = registerBlock("polished_netherrack_wall",
+            new WallBlock(AbstractBlock.Settings.copy(ModStoneBlocks.POLISHED_NETHERRACK)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_netherrack_wall")))));
+    //Netherrack Bricks
+    public static final Block NETHERRACK_BRICKS = registerBlock("netherrack_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_bricks")))
+                    .strength(0.4F, 0.4F)
+                    .requiresTool()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block NETHERRACK_BRICK_STAIRS = registerBlock("netherrack_brick_stairs",
+            new StairsBlock(ModStoneBlocks.NETHERRACK_BRICKS.getDefaultState(), AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_BRICKS)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_brick_stairs")))));
+    public static final Block NETHERRACK_BRICK_SLAB = registerBlock("netherrack_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_BRICKS)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_brick_slab")))));
+    public static final Block NETHERRACK_BRICK_WALL = registerBlock("netherrack_brick_wall",
+            new WallBlock(AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_BRICKS)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_brick_wall")))));
+    //Netherrack Tiles
+    public static final Block NETHERRACK_TILES = registerBlock("netherrack_tiles",
+            new Block(AbstractBlock.Settings.create()
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_tiles")))
+                    .strength(0.4F, 0.4F)
+                    .requiresTool()
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .sounds(BlockSoundGroup.NETHERRACK)));
+    public static final Block NETHERRACK_TILE_STAIRS = registerBlock("netherrack_tile_stairs",
+            new StairsBlock(ModStoneBlocks.NETHERRACK_TILES.getDefaultState(), AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_TILES)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_tile_stairs")))));
+    public static final Block NETHERRACK_TILE_SLAB = registerBlock("netherrack_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_TILES)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_tile_slab")))));
+    public static final Block NETHERRACK_TILE_WALL = registerBlock("netherrack_tile_wall",
+            new WallBlock(AbstractBlock.Settings.copy(ModStoneBlocks.NETHERRACK_TILES)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "netherrack_tile_wall")))));
+
+
+    //End Stone//
+    //Polished End Stone
+    public static final Block POLISHED_END_STONE = registerBlock("polished_end_stone",
+            new Block(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_end_stone")))));
+    public static final Block POLISHED_END_STONE_STAIRS = registerBlock("polished_end_stone_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_end_stone_stairs")))));
+    public static final Block POLISHED_END_STONE_SLAB = registerBlock("polished_end_stone_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_end_stone_slab")))));
+    public static final Block POLISHED_END_STONE_WALL = registerBlock("polished_end_stone_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "polished_end_stone_wall")))));
+    //End Stone Tiles
+    public static final Block END_STONE_TILES = registerBlock("end_stone_tiles",
+            new Block(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_tiles")))));
+    public static final Block END_STONE_TILE_STAIRS = registerBlock("end_stone_tile_stairs",
+            new StairsBlock(Blocks.END_STONE.getDefaultState(), AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_tile_stairs")))));
+    public static final Block END_STONE_TILE_SLAB = registerBlock("end_stone_tile_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_tile_slab")))));
+    public static final Block END_STONE_TILE_WALL = registerBlock("end_stone_tile_wall",
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.END_STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "end_stone_tile_wall")))));
+    
+
+    //Misc Pillars
+    //Stone Pillar
+    public static final Block STONE_PILLAR = registerBlock("stone_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STONE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "stone_pillar")))));
+    //Polished Deepslate Pillar
+    public static final Block DEEPSLATE_PILLAR = registerBlock("deepslate_pillar",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.POLISHED_DEEPSLATE)
+                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MOD_ID, "deepslate_pillar")))));
 
 
     public static void registerModStoneBlocks() {
@@ -350,6 +478,8 @@ public class ModStoneBlocks {
             entries.add(ModStoneBlocks.MARBLE_TILE_STAIRS);
             entries.add(ModStoneBlocks.MARBLE_TILE_SLAB);
             entries.add(ModStoneBlocks.MARBLE_TILE_WALL);
+            //Marble Pillar
+            entries.add(MARBLE_PILLAR);
 
 
             //Calcite Family//
@@ -368,6 +498,8 @@ public class ModStoneBlocks {
             entries.add(ModStoneBlocks.CALCITE_TILE_STAIRS);
             entries.add(ModStoneBlocks.CALCITE_TILE_SLAB);
             entries.add(ModStoneBlocks.CALCITE_TILE_WALL);
+            //Calcite Pillar
+            entries.add(ModStoneBlocks.CALCITE_PILLAR);
 
 
             //Igneous Rock Addons
@@ -377,30 +509,39 @@ public class ModStoneBlocks {
             entries.add(ModStoneBlocks.ANDESITE_BRICK_STAIRS);
             entries.add(ModStoneBlocks.ANDESITE_BRICK_SLAB);
             entries.add(ModStoneBlocks.ANDESITE_BRICK_WALL);
+            //Andesite Tiles
             entries.add(ModStoneBlocks.ANDESITE_TILES);
             entries.add(ModStoneBlocks.ANDESITE_TILE_STAIRS);
             entries.add(ModStoneBlocks.ANDESITE_TILE_SLAB);
             entries.add(ModStoneBlocks.ANDESITE_TILE_WALL);
+            //Andesite Pillar
+            entries.add(ModStoneBlocks.ANDESITE_PILLAR);
             //Granite//
             //Granite Bricks
             entries.add(ModStoneBlocks.GRANITE_BRICKS);
             entries.add(ModStoneBlocks.GRANITE_BRICK_STAIRS);
             entries.add(ModStoneBlocks.GRANITE_BRICK_SLAB);
             entries.add(ModStoneBlocks.GRANITE_BRICK_WALL);
+            //Granite Tiles
             entries.add(ModStoneBlocks.GRANITE_TILES);
             entries.add(ModStoneBlocks.GRANITE_TILE_STAIRS);
             entries.add(ModStoneBlocks.GRANITE_TILE_SLAB);
             entries.add(ModStoneBlocks.GRANITE_TILE_WALL);
+            //Granite Pillar
+            entries.add(ModStoneBlocks.GRANITE_PILLAR);
             //Diorite//
             //Diorite Bricks
             entries.add(ModStoneBlocks.DIORITE_BRICKS);
             entries.add(ModStoneBlocks.DIORITE_BRICK_STAIRS);
             entries.add(ModStoneBlocks.DIORITE_BRICK_SLAB);
             entries.add(ModStoneBlocks.DIORITE_BRICK_WALL);
+            //Diorite Tiles
             entries.add(ModStoneBlocks.DIORITE_TILES);
             entries.add(ModStoneBlocks.DIORITE_TILE_STAIRS);
             entries.add(ModStoneBlocks.DIORITE_TILE_SLAB);
             entries.add(ModStoneBlocks.DIORITE_TILE_WALL);
+            //Diorite Pillar
+            entries.add(ModStoneBlocks.DIORITE_PILLAR);
 
 
             //Basalt Family//
@@ -419,6 +560,8 @@ public class ModStoneBlocks {
             entries.add(ModStoneBlocks.REFINED_BASALT_TILE_STAIRS);
             entries.add(ModStoneBlocks.REFINED_BASALT_TILE_SLAB);
             entries.add(ModStoneBlocks.REFINED_BASALT_TILE_WALL);
+            //Refined Basalt Pillar
+            entries.add(ModStoneBlocks.REFINED_BASALT_PILLAR);
 
 
             //Dripstone Family//
@@ -437,6 +580,44 @@ public class ModStoneBlocks {
             entries.add(ModStoneBlocks.DRIPSTONE_TILE_STAIRS);
             entries.add(ModStoneBlocks.DRIPSTONE_TILE_SLAB);
             entries.add(ModStoneBlocks.DRIPSTONE_TILE_WALL);
+            //Dripstone Pillar
+            entries.add(ModStoneBlocks.DRIPSTONE_PILLAR);
+
+
+            //Netherrack Family//
+            //Polished Netherrack
+            entries.add(ModStoneBlocks.POLISHED_NETHERRACK);
+            entries.add(ModStoneBlocks.POLISHED_NETHERRACK_STAIRS);
+            entries.add(ModStoneBlocks.POLISHED_NETHERRACK_SLAB);
+            entries.add(ModStoneBlocks.POLISHED_NETHERRACK_WALL);
+            //Netherrack Bricks
+            entries.add(ModStoneBlocks.NETHERRACK_BRICKS);
+            entries.add(ModStoneBlocks.NETHERRACK_BRICK_STAIRS);
+            entries.add(ModStoneBlocks.NETHERRACK_BRICK_SLAB);
+            entries.add(ModStoneBlocks.NETHERRACK_BRICK_WALL);
+            //Netherrack Tiles
+            entries.add(ModStoneBlocks.NETHERRACK_TILES);
+            entries.add(ModStoneBlocks.NETHERRACK_TILE_STAIRS);
+            entries.add(ModStoneBlocks.NETHERRACK_TILE_SLAB);
+            entries.add(ModStoneBlocks.NETHERRACK_TILE_WALL);
+
+
+            //End Stone Family//
+            //Polished End Stone
+            entries.add(ModStoneBlocks.POLISHED_END_STONE);
+            entries.add(ModStoneBlocks.POLISHED_END_STONE_STAIRS);
+            entries.add(ModStoneBlocks.POLISHED_END_STONE_SLAB);
+            entries.add(ModStoneBlocks.POLISHED_END_STONE_WALL);
+            //End Stone Tiles
+            entries.add(ModStoneBlocks.END_STONE_TILES);
+            entries.add(ModStoneBlocks.END_STONE_TILE_STAIRS);
+            entries.add(ModStoneBlocks.END_STONE_TILE_SLAB);
+            entries.add(ModStoneBlocks.END_STONE_TILE_WALL);
+
+
+            //Misc Pillars
+            entries.add(ModStoneBlocks.STONE_PILLAR);
+            entries.add(ModStoneBlocks.DEEPSLATE_PILLAR);
         });
     }
 }

@@ -39,6 +39,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(MARBLE_TILE_STAIRS);
         addDrop(MARBLE_TILE_SLAB);
         addDrop(MARBLE_TILE_WALL);
+        //Marble Pillar
+        addDrop(MARBLE_PILLAR);
 
         //Misc
         //Polished Calcite
@@ -56,6 +58,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(CALCITE_TILE_STAIRS);
         addDrop(CALCITE_TILE_SLAB);
         addDrop(CALCITE_TILE_WALL);
+        //Calcite Pillar
+        addDrop(CALCITE_PILLAR);
 
         
         //Mineral Bricks
@@ -88,6 +92,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ANDESITE_TILE_STAIRS);
         addDrop(ANDESITE_TILE_SLAB);
         addDrop(ANDESITE_TILE_WALL);
+        //Andesite Pillar
+        addDrop(ANDESITE_PILLAR);
         //Granite//
         //Granite Bricks
         addDrop(GRANITE_BRICKS);
@@ -99,6 +105,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(GRANITE_TILE_STAIRS);
         addDrop(GRANITE_TILE_SLAB);
         addDrop(GRANITE_TILE_WALL);
+        //Granite Pillar
+        addDrop(GRANITE_PILLAR);
         //Diorite//
         //Diorite Bricks
         addDrop(DIORITE_BRICKS);
@@ -110,6 +118,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(DIORITE_TILE_STAIRS);
         addDrop(DIORITE_TILE_SLAB);
         addDrop(DIORITE_TILE_WALL);
+        //Diorite Pillar
+        addDrop(DIORITE_PILLAR);
 
 
         //Basalt Family//
@@ -128,6 +138,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(REFINED_BASALT_TILE_STAIRS);
         addDrop(REFINED_BASALT_TILE_SLAB);
         addDrop(REFINED_BASALT_TILE_WALL);
+        //Refined Basalt Pillar
+        addDrop(REFINED_BASALT_PILLAR);
         
         
         //Dripstone Family//
@@ -146,6 +158,44 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(DRIPSTONE_TILE_STAIRS);
         addDrop(DRIPSTONE_TILE_SLAB);
         addDrop(DRIPSTONE_TILE_WALL);
+        //Dripstone Pillar
+        addDrop(DRIPSTONE_PILLAR);
+
+
+        //Netherrack Family//
+        //Polished Netherrack
+        addDrop(POLISHED_NETHERRACK);
+        addDrop(POLISHED_NETHERRACK_STAIRS);
+        addDrop(POLISHED_NETHERRACK_SLAB);
+        addDrop(POLISHED_NETHERRACK_WALL);
+        //Netherrack Bricks
+        addDrop(NETHERRACK_BRICKS);
+        addDrop(NETHERRACK_BRICK_STAIRS);
+        addDrop(NETHERRACK_BRICK_SLAB);
+        addDrop(NETHERRACK_BRICK_WALL);
+        //Netherrack Tiles
+        addDrop(NETHERRACK_TILES);
+        addDrop(NETHERRACK_TILE_STAIRS);
+        addDrop(NETHERRACK_TILE_SLAB);
+        addDrop(NETHERRACK_TILE_WALL);
+
+
+        //End Stone Family//
+        //Polished End Stone
+        addDrop(POLISHED_END_STONE);
+        addDrop(POLISHED_END_STONE_STAIRS);
+        addDrop(POLISHED_END_STONE_SLAB);
+        addDrop(POLISHED_END_STONE_WALL);
+        //End Stone Tiles
+        addDrop(END_STONE_TILES);
+        addDrop(END_STONE_TILE_STAIRS);
+        addDrop(END_STONE_TILE_SLAB);
+        addDrop(END_STONE_TILE_WALL);
+
+
+        //Misc Pillars
+        addDrop(STONE_PILLAR);
+        addDrop(DEEPSLATE_PILLAR);
         
         
         //Rose Quartz Family//
@@ -367,6 +417,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(AMETHYST_STAIRS);
         addDrop(AMETHYST_SLAB);
         addDrop(AMETHYST_WALL);
+        addDrop(DEEPSLATE_STAIRS);
+        addDrop(DEEPSLATE_SLAB);
+        addDrop(DEEPSLATE_WALL);
+        addDrop(NETHERRACK_STAIRS);
+        addDrop(NETHERRACK_SLAB);
+        addDrop(NETHERRACK_WALL);
 
 
         //Quartz

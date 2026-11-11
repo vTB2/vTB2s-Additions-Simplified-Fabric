@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:white_concrete",
-  "result": {
-    "id": "vtb2s_additions:white_concrete_wall",
-    "count": 1
-  }
-}

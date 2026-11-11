@@ -25,6 +25,7 @@
   "block.vtb2s_additions.marble_tile_stairs": "Marble Tile Stairs",
   "block.vtb2s_additions.marble_tile_slab": "Marble Tile Slab",
   "block.vtb2s_additions.marble_tile_wall": "Marble Tile Wall",
+  "block.vtb2s_additions.marble_pillar": "Marble Pillar",
 
 
   "block.vtb2s_additions.polished_calcite": "Polished Calcite",
@@ -39,6 +40,7 @@
   "block.vtb2s_additions.calcite_tile_stairs": "Calcite Tile Stairs",
   "block.vtb2s_additions.calcite_tile_slab": "Calcite Tile Slab",
   "block.vtb2s_additions.calcite_tile_wall": "Calcite Tile Wall",
+  "block.vtb2s_additions.calcite_pillar": "Calcite Pillar",
 
 
   "block.vtb2s_additions.refined_basalt": "Refined Basalt",
@@ -53,6 +55,7 @@
   "block.vtb2s_additions.refined_basalt_tile_stairs": "Refined Basalt Tile Stairs",
   "block.vtb2s_additions.refined_basalt_tile_slab": "Refined Basalt Tile Slab",
   "block.vtb2s_additions.refined_basalt_tile_wall": "Refined Basalt Tile Wall",
+  "block.vtb2s_additions.refined_basalt_pillar": "Refined Basalt Pillar",
 
 
   "block.vtb2s_additions.polished_dripstone": "Polished Dripstone",
@@ -67,6 +70,31 @@
   "block.vtb2s_additions.dripstone_tile_stairs": "Dripstone Tile Stairs",
   "block.vtb2s_additions.dripstone_tile_slab": "Dripstone Tile Slab",
   "block.vtb2s_additions.dripstone_tile_wall": "Dripstone Tile Wall",
+  "block.vtb2s_additions.dripstone_pillar": "Dripstone Pillar",
+
+
+  "block.vtb2s_additions.polished_netherrack": "Polished Netherrack",
+  "block.vtb2s_additions.polished_netherrack_stairs": "Polished Netherrack Stairs",
+  "block.vtb2s_additions.polished_netherrack_slab": "Polished Netherrack Slab",
+  "block.vtb2s_additions.polished_netherrack_wall": "Polished Netherrack Wall",
+  "block.vtb2s_additions.netherrack_bricks": "Netherrack Bricks",
+  "block.vtb2s_additions.netherrack_brick_stairs": "Netherrack Brick Stairs",
+  "block.vtb2s_additions.netherrack_brick_slab": "Netherrack Brick Slab",
+  "block.vtb2s_additions.netherrack_brick_wall": "Netherrack Brick Wall",
+  "block.vtb2s_additions.netherrack_tiles": "Netherrack Tiles",
+  "block.vtb2s_additions.netherrack_tile_stairs": "Netherrack Tile Stairs",
+  "block.vtb2s_additions.netherrack_tile_slab": "Netherrack Tile Slab",
+  "block.vtb2s_additions.netherrack_tile_wall": "Netherrack Tile Wall",
+
+
+  "block.vtb2s_additions.polished_end_stone": "Polished End Stone",
+  "block.vtb2s_additions.polished_end_stone_stairs": "Polished End Stone Stairs",
+  "block.vtb2s_additions.polished_end_stone_slab": "Polished End Stone Slab",
+  "block.vtb2s_additions.polished_end_stone_wall": "Polished End Stone Wall",
+  "block.vtb2s_additions.end_stone_tiles": "End Stone Tiles",
+  "block.vtb2s_additions.end_stone_tile_stairs": "End Stone Tile Stairs",
+  "block.vtb2s_additions.end_stone_tile_slab": "End Stone Tile Slab",
+  "block.vtb2s_additions.end_stone_tile_wall": "End Stone Tile Wall",
 
 
   "block.vtb2s_additions.gold_bricks": "Gold Bricks",
@@ -90,6 +118,7 @@
   "block.vtb2s_additions.andesite_tile_stairs": "Andesite Tile Stairs",
   "block.vtb2s_additions.andesite_tile_slab": "Andesite Tile Slab",
   "block.vtb2s_additions.andesite_tile_wall": "Andesite Tile Wall",
+  "block.vtb2s_additions.andesite_pillar": "Andesite Pillar",
   "block.vtb2s_additions.granite_bricks": "Granite Bricks",
   "block.vtb2s_additions.granite_brick_stairs": "Granite Brick Stairs",
   "block.vtb2s_additions.granite_brick_slab": "Granite Brick Slab",
@@ -98,6 +127,7 @@
   "block.vtb2s_additions.granite_tile_stairs": "Granite Tile Stairs",
   "block.vtb2s_additions.granite_tile_slab": "Granite Tile Slab",
   "block.vtb2s_additions.granite_tile_wall": "Granite Tile Wall",
+  "block.vtb2s_additions.granite_pillar": "Granite Pillar",
   "block.vtb2s_additions.diorite_bricks": "Diorite Bricks",
   "block.vtb2s_additions.diorite_brick_stairs": "Diorite Brick Stairs",
   "block.vtb2s_additions.diorite_brick_slab": "Diorite Brick Slab",
@@ -106,6 +136,9 @@
   "block.vtb2s_additions.diorite_tile_stairs": "Diorite Tile Stairs",
   "block.vtb2s_additions.diorite_tile_slab": "Diorite Tile Slab",
   "block.vtb2s_additions.diorite_tile_wall": "Diorite Tile Wall",
+  "block.vtb2s_additions.diorite_pillar": "Diorite Pillar",
+
+  "block.vtb2s_additions.stone_pillar": "Stone Pillar",
 
   "block.vtb2s_additions.rose_nether_quartz_ore": "Nether Rose Quartz Ore",
   "block.vtb2s_additions.rose_quartz_block":  "Block of Rose Quartz",
@@ -301,6 +334,16 @@
   "block.vtb2s_additions.amethyst_stairs": "Amethyst Stairs",
   "block.vtb2s_additions.amethyst_slab": "Amethyst Slab",
   "block.vtb2s_additions.amethyst_wall": "Amethyst Wall",
+  "block.vtb2s_additions.deepslate_stairs": "Deepslate Stairs",
+  "block.vtb2s_additions.deepslate_slab": "Deepslate Slab",
+  "block.vtb2s_additions.deepslate_wall": "Deepslate Wall",
+  "block.vtb2s_additions.deepslate_pillar": "Deepslate Pillar",
+  "block.vtb2s_additions.netherrack_stairs": "Netherrack Stairs",
+  "block.vtb2s_additions.netherrack_slab": "Netherrack Slab",
+  "block.vtb2s_additions.netherrack_wall": "Netherrack Wall",
+  "block.vtb2s_additions.end_stone_stairs": "End Stone Stairs",
+  "block.vtb2s_additions.end_stone_slab": "End Stone Slab",
+  "block.vtb2s_additions.end_stone_wall": "End Stone Wall",
 
   "block.vtb2s_additions.quartz_wall": "Quartz Wall",
   "block.vtb2s_additions.smooth_quartz_wall": "Smooth Quartz Wall",

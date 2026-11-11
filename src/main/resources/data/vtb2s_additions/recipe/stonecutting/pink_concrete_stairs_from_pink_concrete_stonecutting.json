@@ -1,9 +1,0 @@
-
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:pink_concrete",
-  "result": {
-    "id": "vtb2s_additions:pink_concrete_stairs",
-    "count": 1
-  }
-}

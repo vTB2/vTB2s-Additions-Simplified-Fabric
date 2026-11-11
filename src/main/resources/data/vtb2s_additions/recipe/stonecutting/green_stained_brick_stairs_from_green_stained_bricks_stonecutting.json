@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:green_stained_bricks",
-  "result": {
-    "id": "vtb2s_additions:green_stained_brick_stairs",
-    "count": 1
-  }
-}
