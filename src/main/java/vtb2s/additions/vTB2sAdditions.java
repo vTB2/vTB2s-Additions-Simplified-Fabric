@@ -2,21 +2,10 @@ package vtb2s.additions;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
-import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.BiomeTags;
-import net.minecraft.util.Identifier;
-import net.minecraft.world.biome.BiomeKeys;
-import net.minecraft.world.gen.GenerationStep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import vtb2s.additions.block.*;
 import vtb2s.additions.item.ModItems;
-
-import java.util.function.Predicate;
 
 public class vTB2sAdditions implements ModInitializer {
 	public static final String MOD_ID = "vtb2s_additions";
@@ -24,16 +13,11 @@ public class vTB2sAdditions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModStoneBlocks.registerModStoneBlocks();
-		ModQuartzBlocks.registerModQuartzBlocks();
-		ModVanillaVariantBlocks.registerModVanillaVariantBlocks();
-		ModOreBlocks.registerModOreBlocks();
-		ModMiscBlocks.registerModMiscBlocks();
-		ModColouredBlocks.registerModColouredBlocks();
-		LOGGER.info("Registering Mod Blocks for " + MOD_ID);
+
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
-		addOreFeature("ore_marble", BiomeSelectors.foundInOverworld());
+	/*	addOreFeature("ore_marble", BiomeSelectors.foundInOverworld());
 		addOreFeature("ore_rare_marble", BiomeSelectors.foundInOverworld());
 		addOreFeature("ore_marble_mountain", BiomeSelectors.tag(BiomeTags.IS_MOUNTAIN));
 		addOreFeature("ore_calcite", BiomeSelectors.foundInOverworld());
@@ -41,9 +25,9 @@ public class vTB2sAdditions implements ModInitializer {
 		addOreFeature("ore_prasiolite_quartz", BiomeSelectors.foundInOverworld());
 		addOreFeature("ore_rose_nether_quartz", BiomeSelectors.foundInTheNether());
 		addOreFeature("ore_smokey_nether_quartz", BiomeSelectors.foundInTheNether());
-		addOreFeature("ore_crimson_nether_quartz", BiomeSelectors.includeByKey(BiomeKeys.CRIMSON_FOREST));
-		addOreFeature("ore_soul_nether_quartz", BiomeSelectors.includeByKey(BiomeKeys.SOUL_SAND_VALLEY));
-		addOreFeature("ore_infernal_nether_quartz", BiomeSelectors.includeByKey(BiomeKeys.BASALT_DELTAS));
+		addOreFeature("ore_crimson_nether_quartz", BiomeSelectors.includeByKey(Biomes.CRIMSON_FOREST));
+		addOreFeature("ore_soul_nether_quartz", BiomeSelectors.includeByKey(Biomes.SOUL_SAND_VALLEY));
+		addOreFeature("ore_infernal_nether_quartz", BiomeSelectors.includeByKey(Biomes.BASALT_DELTAS));
 		addOreFeature("ore_end_indigo_quartz", BiomeSelectors.foundInTheEnd());
 		//adding in 1.3.0			addOreFeature("ore_citrine",BiomeSelectors.foundInOverworld());
 	}
@@ -59,5 +43,6 @@ public class vTB2sAdditions implements ModInitializer {
 
 	public static void addOreFeature(String featureName, Predicate<BiomeSelectionContext> biomeSelector) {
 		addFeature(featureName, biomeSelector, GenerationStep.Feature.UNDERGROUND_ORES);
+	}*/
 	}
 }

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:refined_basalt",
-  "result": {
-    "id": "vtb2s_additions:refined_basalt_tile_stairs",
-    "count": 1
-  }
-}

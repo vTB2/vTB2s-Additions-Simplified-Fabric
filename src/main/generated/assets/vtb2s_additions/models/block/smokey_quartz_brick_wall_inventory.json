@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/wall_inventory",
-  "textures": {
-    "wall": "vtb2s_additions:block/smokey_quartz_bricks"
-  }
-}

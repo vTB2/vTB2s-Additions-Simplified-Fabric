@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/template_wall_side_tall",
-  "textures": {
-    "wall": "vtb2s_additions:block/smooth_smokey_quartz"
-  }
-}

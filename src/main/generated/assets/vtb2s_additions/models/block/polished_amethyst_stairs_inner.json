@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "vtb2s_additions:block/polished_amethyst",
-    "side": "vtb2s_additions:block/polished_amethyst",
-    "top": "vtb2s_additions:block/polished_amethyst"
-  }
-}

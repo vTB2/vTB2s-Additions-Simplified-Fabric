@@ -15,6 +15,7 @@ classes/
 *.iml
 *.ipr
 *.iws
+temp/
 
 # vscode
 
@@ -38,3 +39,5 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+/temp/
+/temp/

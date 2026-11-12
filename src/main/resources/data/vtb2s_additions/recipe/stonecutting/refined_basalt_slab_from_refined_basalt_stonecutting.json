@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:refined_basalt",
-  "result": {
-    "id": "vtb2s_additions:refined_basalt_slab",
-    "count": 2
-  }
-}

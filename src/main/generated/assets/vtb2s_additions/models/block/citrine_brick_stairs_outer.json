@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "vtb2s_additions:block/citrine_bricks",
-    "side": "vtb2s_additions:block/citrine_bricks",
-    "top": "vtb2s_additions:block/citrine_bricks"
-  }
-}

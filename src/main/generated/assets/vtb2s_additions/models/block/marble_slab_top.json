@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "vtb2s_additions:block/marble",
-    "side": "vtb2s_additions:block/marble",
-    "top": "vtb2s_additions:block/marble"
-  }
-}

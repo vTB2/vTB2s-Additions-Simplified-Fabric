@@ -1,0 +1,5 @@
+1:1 port of 1.1.0 from 1.21.11
+tweaked versioning scheme (+mcx.x to refer to game version)
+as a side effect of porting to 26.3, the code has been cleaned up
+removed concrete stair and slab variants as they are now in the vanilla game
+remove unused citrine blocks from code

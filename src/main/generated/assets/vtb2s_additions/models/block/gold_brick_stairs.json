@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "vtb2s_additions:block/gold_bricks",
-    "side": "vtb2s_additions:block/gold_bricks",
-    "top": "vtb2s_additions:block/gold_bricks"
-  }
-}

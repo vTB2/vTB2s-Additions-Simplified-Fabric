@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "vtb2s_additions:block/refined_basalt",
-    "side": "vtb2s_additions:block/refined_basalt",
-    "top": "vtb2s_additions:block/refined_basalt"
-  }
-}

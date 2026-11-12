@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:granite",
-  "result": {
-    "id": "vtb2s_additions:granite_bricks",
-    "count": 1
-  }
-}

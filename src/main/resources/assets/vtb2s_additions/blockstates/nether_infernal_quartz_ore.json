@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "vtb2s_additions:block/nether_infernal_quartz_ore_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "vtb2s_additions:block/nether_infernal_quartz_ore"
+    },
+    "axis=z": {
+      "model": "vtb2s_additions:block/nether_infernal_quartz_ore_horizontal",
+      "x": 90
+    }
+  }
+}

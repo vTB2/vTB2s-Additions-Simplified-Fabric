@@ -1,13 +1,11 @@
 {
-  "item.vtb2s_additions.crimson_nether_quartz": "Nether Crimson Quartz",
-  "item.vtb2s_additions.rose_nether_quartz": "Nether Rose Quartz",
-  "item.vtb2s_additions.infernal_nether_quartz": "Nether Infernal Quartz",
-  "item.vtb2s_additions.smokey_nether_quartz": "Nether Smokey Quartz",
-  "item.vtb2s_additions.soul_nether_quartz": "Nether Soul Quartz",
+  "item.vtb2s_additions.nether_crimson_quartz": "Nether Crimson Quartz",
+  "item.vtb2s_additions.nether_rose_quartz": "Nether Rose Quartz",
+  "item.vtb2s_additions.nether_infernal_quartz": "Nether Infernal Quartz",
+  "item.vtb2s_additions.nether_smokey_quartz": "Nether Smokey Quartz",
+  "item.vtb2s_additions.nether_soul_quartz": "Nether Soul Quartz",
   "item.vtb2s_additions.prasiolite_quartz": "Prasiolite Quartz",
   "item.vtb2s_additions.end_indigo_quartz": "End Indigo Quartz",
-  "item.vtb2s_additions.citrine": "Citrine",
-
 
   "block.vtb2s_additions.marble": "Marble",
   "block.vtb2s_additions.marble_stairs": "Marble Stairs",
@@ -107,7 +105,7 @@
   "block.vtb2s_additions.diorite_tile_slab": "Diorite Tile Slab",
   "block.vtb2s_additions.diorite_tile_wall": "Diorite Tile Wall",
 
-  "block.vtb2s_additions.rose_nether_quartz_ore": "Nether Rose Quartz Ore",
+  "block.vtb2s_additions.nether_rose_quartz_ore": "Nether Rose Quartz Ore",
   "block.vtb2s_additions.rose_quartz_block":  "Block of Rose Quartz",
   "block.vtb2s_additions.rose_quartz_stairs":  "Rose Quartz Stairs",
   "block.vtb2s_additions.rose_quartz_slab":  "Rose Quartz Slab",
@@ -126,7 +124,7 @@
   "block.vtb2s_additions.smooth_rose_quartz_wall":  "Smooth Rose Quartz Wall",
 
 
-  "block.vtb2s_additions.crimson_nether_quartz_ore": "Nether Crimson Quartz Ore",
+  "block.vtb2s_additions.nether_crimson_quartz_ore": "Nether Crimson Quartz Ore",
   "block.vtb2s_additions.crimson_quartz_block":  "Block of Crimson Quartz",
   "block.vtb2s_additions.crimson_quartz_stairs":  "Crimson Quartz Stairs",
   "block.vtb2s_additions.crimson_quartz_slab":  "Crimson Quartz Slab",
@@ -145,7 +143,7 @@
   "block.vtb2s_additions.smooth_crimson_quartz_wall":  "Smooth Crimson Quartz Wall",
 
 
-  "block.vtb2s_additions.infernal_nether_quartz_ore": "Nether Infernal Quartz Ore",
+  "block.vtb2s_additions.nether_infernal_quartz_ore": "Nether Infernal Quartz Ore",
   "block.vtb2s_additions.infernal_quartz_block":  "Block of Infernal Quartz",
   "block.vtb2s_additions.infernal_quartz_stairs":  "Infernal Quartz Stairs",
   "block.vtb2s_additions.infernal_quartz_slab":  "Infernal Quartz Slab",
@@ -164,7 +162,7 @@
   "block.vtb2s_additions.smooth_infernal_quartz_wall":  "Smooth Infernal Quartz Wall",
 
 
-  "block.vtb2s_additions.smokey_nether_quartz_ore": "Nether Smokey Quartz Ore",
+  "block.vtb2s_additions.nether_smokey_quartz_ore": "Nether Smokey Quartz Ore",
   "block.vtb2s_additions.smokey_quartz_block":  "Block of Smokey Quartz",
   "block.vtb2s_additions.smokey_quartz_stairs":  "Smokey Quartz Stairs",
   "block.vtb2s_additions.smokey_quartz_slab":  "Smokey Quartz Slab",
@@ -183,7 +181,7 @@
   "block.vtb2s_additions.smooth_smokey_quartz_wall":  "Smooth Smokey Quartz Wall",
 
 
-  "block.vtb2s_additions.soul_nether_quartz_ore": "Nether Soul Quartz Ore",
+  "block.vtb2s_additions.nether_soul_quartz_ore": "Nether Soul Quartz Ore",
   "block.vtb2s_additions.soul_quartz_block":  "Block of Soul Quartz",
   "block.vtb2s_additions.soul_quartz_stairs":  "Soul Quartz Stairs",
   "block.vtb2s_additions.soul_quartz_slab":  "Soul Quartz Slab",
@@ -244,26 +242,6 @@
   "block.vtb2s_additions.quartz_tile_slab":  "Quartz Tile Slab",
   "block.vtb2s_additions.quartz_tile_wall":  "Quartz Tile Wall",
 
-
-  "block.vtb2s_additions.citrine_ore": "Citrine Ore",
-  "block.vtb2s_additions.citrine_block":  "Block of Citrine",
-  "block.vtb2s_additions.citrine_stairs":  "Citrine Stairs",
-  "block.vtb2s_additions.citrine_slab":  "Citrine Slab",
-  "block.vtb2s_additions.citrine_wall":  "Citrine Wall",
-  "block.vtb2s_additions.citrine_bricks":  "Citrine Bricks",
-  "block.vtb2s_additions.citrine_brick_stairs":  "Citrine Brick Stairs",
-  "block.vtb2s_additions.citrine_brick_slab":  "Citrine Brick Slab",
-  "block.vtb2s_additions.citrine_brick_wall":  "Citrine Brick Wall",
-  "block.vtb2s_additions.citrine_tiles":  "Citrine Tiles",
-  "block.vtb2s_additions.citrine_tile_stairs":  "Citrine Tile Stairs",
-  "block.vtb2s_additions.citrine_tile_slab":  "Citrine Tile Slab",
-  "block.vtb2s_additions.citrine_tile_wall":  "Citrine Tile Wall",
-  "block.vtb2s_additions.smooth_citrine":  "Smooth Citrine Block",
-  "block.vtb2s_additions.smooth_citrine_stairs":  "Smooth Citrine Stairs",
-  "block.vtb2s_additions.smooth_citrine_slab":  "Smooth Citrine Slab",
-  "block.vtb2s_additions.smooth_citrine_wall":  "Smooth Citrine Wall",
-
-
   "block.vtb2s_additions.polished_amethyst": "Polished Amethyst",
   "block.vtb2s_additions.polished_amethyst_stairs": "Polished Amethyst Stairs",
   "block.vtb2s_additions.polished_amethyst_slab": "Polished Amethyst Slab",
@@ -280,8 +258,7 @@
   "block.vtb2s_additions.smooth_amethyst_stairs": "Smooth Amethyst Stairs",
   "block.vtb2s_additions.smooth_amethyst_slab": "Smooth Amethyst Slab",
   "block.vtb2s_additions.smooth_amethyst_wall": "Smooth Amethyst Wall",
-  
-  
+
   
   "block.vtb2s_additions.stone_wall": "Stone Wall",
   "block.vtb2s_additions.smooth_stone_stairs": "Smooth Stone Stairs",
@@ -307,54 +284,22 @@
   "block.vtb2s_additions.quartz_brick_stairs": "Quartz Brick Stairs",
   "block.vtb2s_additions.quartz_brick_slab": "Quartz Brick Slab",
   "block.vtb2s_additions.quartz_brick_wall": "Quartz Brick Wall",
-  
-  "block.vtb2s_additions.white_concrete_stairs": "White Concrete Stairs",
-  "block.vtb2s_additions.white_concrete_slab": "White Concrete Slab",
+
   "block.vtb2s_additions.white_concrete_wall": "White Concrete Wall",
-  "block.vtb2s_additions.light_gray_concrete_stairs": "Light Gray Concrete Stairs",
-  "block.vtb2s_additions.light_gray_concrete_slab": "Light Gray Concrete Slab",
   "block.vtb2s_additions.light_gray_concrete_wall": "Light Gray Concrete Wall",
-  "block.vtb2s_additions.gray_concrete_stairs": "Gray Concrete Stairs",
-  "block.vtb2s_additions.gray_concrete_slab": "Gray Concrete Slab",
   "block.vtb2s_additions.gray_concrete_wall": "Gray Concrete Wall",
-  "block.vtb2s_additions.black_concrete_stairs": "Black Concrete Stairs",
-  "block.vtb2s_additions.black_concrete_slab": "Black Concrete Slab",
   "block.vtb2s_additions.black_concrete_wall": "Black Concrete Wall",
-  "block.vtb2s_additions.brown_concrete_stairs": "Brown Concrete Stairs",
-  "block.vtb2s_additions.brown_concrete_slab": "Brown Concrete Slab",
   "block.vtb2s_additions.brown_concrete_wall": "Brown Concrete Wall",
-  "block.vtb2s_additions.red_concrete_stairs": "Red Concrete Stairs",
-  "block.vtb2s_additions.red_concrete_slab": "Red Concrete Slab",
   "block.vtb2s_additions.red_concrete_wall": "Red Concrete Wall",
-  "block.vtb2s_additions.orange_concrete_stairs": "Orange Concrete Stairs",
-  "block.vtb2s_additions.orange_concrete_slab": "Orange Concrete Slab",
   "block.vtb2s_additions.orange_concrete_wall": "Orange Concrete Wall",
-  "block.vtb2s_additions.yellow_concrete_stairs": "Yellow Concrete Stairs",
-  "block.vtb2s_additions.yellow_concrete_slab": "Yellow Concrete Slab",
   "block.vtb2s_additions.yellow_concrete_wall": "Yellow Concrete Wall",
-  "block.vtb2s_additions.lime_concrete_stairs": "Lime Concrete Stairs",
-  "block.vtb2s_additions.lime_concrete_slab": "Lime Concrete Slab",
   "block.vtb2s_additions.lime_concrete_wall": "Lime Concrete Wall",
-  "block.vtb2s_additions.green_concrete_stairs": "Green Concrete Stairs",
-  "block.vtb2s_additions.green_concrete_slab": "Green Concrete Slab",
   "block.vtb2s_additions.green_concrete_wall": "Green Concrete Wall",
-  "block.vtb2s_additions.cyan_concrete_stairs": "Cyan Concrete Stairs",
-  "block.vtb2s_additions.cyan_concrete_slab": "Cyan Concrete Slab",
   "block.vtb2s_additions.cyan_concrete_wall": "Cyan Concrete Wall",
-  "block.vtb2s_additions.light_blue_concrete_stairs": "Light Blue Concrete Stairs",
-  "block.vtb2s_additions.light_blue_concrete_slab": "Light Blue Concrete Slab",
   "block.vtb2s_additions.light_blue_concrete_wall": "Light Blue Concrete Wall",
-  "block.vtb2s_additions.blue_concrete_stairs": "Blue Concrete Stairs",
-  "block.vtb2s_additions.blue_concrete_slab": "Blue Concrete Slab",
   "block.vtb2s_additions.blue_concrete_wall": "Blue Concrete Wall",
-  "block.vtb2s_additions.purple_concrete_stairs": "Purple Concrete Stairs",
-  "block.vtb2s_additions.purple_concrete_slab": "Purple Concrete Slab",
   "block.vtb2s_additions.purple_concrete_wall": "Purple Concrete Wall",
-  "block.vtb2s_additions.magenta_concrete_stairs": "Magenta Concrete Stairs",
-  "block.vtb2s_additions.magenta_concrete_slab": "Magenta Concrete Slab",
   "block.vtb2s_additions.magenta_concrete_wall": "Magenta Concrete Wall",
-  "block.vtb2s_additions.pink_concrete_stairs": "Pink Concrete Stairs",
-  "block.vtb2s_additions.pink_concrete_slab": "Pink Concrete Slab",
   "block.vtb2s_additions.pink_concrete_wall": "Pink Concrete Wall",
   
   "block.vtb2s_additions.white_stained_bricks": "White Stained Bricks",

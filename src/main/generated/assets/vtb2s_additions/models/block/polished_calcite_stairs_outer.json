@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "vtb2s_additions:block/polished_calcite",
-    "side": "vtb2s_additions:block/polished_calcite",
-    "top": "vtb2s_additions:block/polished_calcite"
-  }
-}

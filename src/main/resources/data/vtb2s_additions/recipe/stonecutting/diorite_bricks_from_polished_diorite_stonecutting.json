@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:polished_diorite",
-  "result": {
-    "id": "vtb2s_additions:diorite_bricks",
-    "count": 1
-  }
-}

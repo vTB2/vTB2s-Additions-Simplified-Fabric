@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:purple_concrete",
-  "result": {
-    "id": "vtb2s_additions:purple_concrete_slab",
-    "count": 2
-  }
-}

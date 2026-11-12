@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "vtb2s_additions:rose_quartz_block",
-  "result": {
-    "id": "vtb2s_additions:rose_quartz_bricks",
-    "count": 1
-  }
-}
